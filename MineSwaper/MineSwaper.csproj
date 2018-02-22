@@ -42,6 +42,7 @@
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />
+    <Reference Include="System.Web" />
     <Reference Include="System.Windows.Interactivity, Version=4.5.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <HintPath>..\packages\ControlzEx.3.0.2.4\lib\net45\System.Windows.Interactivity.dll</HintPath>
     </Reference>
@@ -71,7 +72,7 @@
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="Camp.cs" />
+    <Compile Include="CampType.cs" />
     <Compile Include="Game.cs" />
     <Compile Include="MainWindow.xaml.cs">
       <DependentUpon>MainWindow.xaml</DependentUpon>
@@ -104,6 +105,18 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Pics\bomb.png" />
+    <Resource Include="Pics\flag.png" />
+    <Resource Include="Pics\number1.png" />
+    <Resource Include="Pics\number2.png" />
+    <Resource Include="Pics\number3.png" />
+    <Resource Include="Pics\number4.png" />
+    <Resource Include="Pics\number5.png" />
+    <Resource Include="Pics\number6.png" />
+    <Resource Include="Pics\number7.png" />
+    <Resource Include="Pics\number8.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

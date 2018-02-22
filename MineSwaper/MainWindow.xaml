@@ -18,8 +18,8 @@
             <Button Content="Pause" Background="White" HorizontalAlignment="Left" Margin="107,10,0,0" VerticalAlignment="Top" Width="75"/>
             <Button Content="Reset" Name="ResetBtn" Click="ResetBtn_OnClick" Background="White" HorizontalAlignment="Left" Margin="205,10,0,0" VerticalAlignment="Top" Width="75"/>
             <Label Content="Time:" HorizontalAlignment="Left" Margin="10,45,0,0" FontSize="18" VerticalAlignment="Top" FontWeight="Bold"/>
-            <RadioButton Content="Beginner" HorizontalAlignment="Left" Margin="304,16,0,0" VerticalAlignment="Top"/>
-            <RadioButton Content="Intermediate" HorizontalAlignment="Left" Margin="384,16,0,0" VerticalAlignment="Top"/>
+            <RadioButton Name="Beginner" GroupName="dificult" Content="Beginner" HorizontalAlignment="Left" Margin="304,16,0,0" VerticalAlignment="Top" IsChecked="True"/>
+            <RadioButton Name="Intermediate" GroupName="dificult" Content="Intermediate" HorizontalAlignment="Left" Margin="384,16,0,0" VerticalAlignment="Top"/>
             <Label Name="TimerNumber" Content="00:00" HorizontalAlignment="Left" Margin="64,46,0,0" FontSize="18" VerticalAlignment="Top" FontWeight="Bold">
                 <Label.Style>
                     <Style TargetType="{x:Type Label}">
